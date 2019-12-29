@@ -1,0 +1,10 @@
+main.buscar img
+{
+	height: 200px;
+	width: 300px;
+}
+
+main.buscar .card-content
+{
+	height: 60px;
+}

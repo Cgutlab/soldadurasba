@@ -1,0 +1,166 @@
+*
+{
+    outline: none;
+}
+
+body
+{
+    font-family: 'Titillium Web', sans-serif;
+    outline: none;
+}
+
+.pagination
+{
+    text-align: center;
+}
+
+.page-item.active
+{
+    width: 30px;
+    height: 30px;
+}
+
+.nuevo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nuevo i
+{
+    font-size: 16px;
+}
+
+.nuevo:hover
+{
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+.pagination li.active
+{
+    background-color: #ffab00; /*Color del cuadro active de la paginacion materialize*/
+}
+
+.nave
+{
+    background-color: #ffab00;
+}
+
+a
+{
+    outline: none;
+    color:#434242;
+    font-weight: bold;
+}
+
+.material-icons i
+{
+    color:#34506E !important;
+}
+
+.collapsible-body>div
+{
+    padding-left: 70px;    
+}
+
+div
+{
+    border:0;
+}
+
+.collapsible-header
+{
+    border:inherit;
+}
+
+.collapsible-body
+
+{
+    border: inherit;
+    padding: 0;
+}
+
+.collapsible
+
+{
+    border:inherit;
+    margin: 0;
+}
+
+.btn
+{
+    background-color:#ffab00;
+    outline: none;  
+}
+
+.btn:hover
+{
+    background-color:#434242;
+}
+
+
+.logo-admin
+{
+display: block;
+margin:10px auto;
+}
+
+
+.submit-button
+{
+    border:none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+}
+
+.btn-submit
+{
+    padding: 0;
+    outline: none;
+}
+
+.waves-button-input
+{
+    padding: 0 30px;
+}
+
+.btn
+{
+    outline: none;
+}
+
+.dropdown-content li>a, .dropdown-content li>span 
+{
+    color:#34506E;
+}
+
+.collapsible .active
+{
+    background-color:#ffab00 !important;
+    font-weight: bold !important;
+    color:#FFF !important;
+}
+
+.collapsible .active i
+{
+    color:#FFF !important;
+}
+
+.gris
+{
+    color:#9e9e9e;
+}
+
+.flex-action
+{
+    display: inline-flex;
+}
+
+.capitalize
+{
+    text-transform: capitalize;
+}

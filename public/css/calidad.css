@@ -1,0 +1,35 @@
+main.calidad .texto p:first-child
+{
+	margin-top: 0;
+}
+
+main.calidad .titulo
+{
+	line-height: 1.2;
+}
+
+main.calidad .linea-amarilla
+{
+	height: 4px;
+	width: 100%; 
+ 	background-color: #F9C919;
+}
+
+main.calidad .bloque
+{
+	background-color: #f0f0f0;
+	border: 1px solid #E0E0E0;
+}
+
+main.calidad .bloque i
+{
+	font-size: 26px;
+	margin-right: 10px;
+}
+
+main.calidad .bloque a
+{
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+}

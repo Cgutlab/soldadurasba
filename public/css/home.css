@@ -1,0 +1,57 @@
+main.home .card
+{
+    border: 1px solid #DDD;
+}
+
+
+main.home .card-image
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 240px;
+	position: relative;
+	overflow: hidden;
+}
+
+main.home .card-image img
+{
+	max-width: 75%;
+}
+
+main.home .card-content
+{
+	/* padding: 15px 0!important; */
+	height: 70px;
+	line-height: 1.1;
+}
+.efecto
+	{
+    position:absolute;
+    opacity: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+ }    
+
+.efecto:hover
+	{
+    opacity: 1;
+    transition: 1s;
+	}
+
+.central
+	{
+    display: inline-block;
+    position: absolute;
+    background-color:#ffab00;
+  	color: #FFF;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform:translate(-50%,-50%);
+    line-height:0;
+    padding:10px;
+	}

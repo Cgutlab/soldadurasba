@@ -1,0 +1,135 @@
+.select-wrapper input.select-dropdown
+{
+	border: 1px solid #DDD;
+	background-color: white;
+}
+
+input[type=text]:not(.browser-default)
+{
+	background-color: white;
+	border: 1px solid #DDD;
+	padding-left: 10px;
+}
+
+main.familia .card
+{
+	border: 1px solid #EAEAEA;
+}
+
+main.familia .card-image
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 240px;
+	position: relative;
+	overflow: hidden;
+}
+
+main.familia .card-image img
+{
+	max-width: 75%;
+}
+
+main.familia .card-content
+{
+	/* padding: 15px 0!important; */
+	height: 65px;
+	line-height: 1.1;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.subfamilia .card
+{
+	border: 1px solid #DDD;
+}
+
+main.subfamilia .card-image
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 140px;
+	position: relative;
+	overflow: hidden;
+}
+
+main.subfamilia .card-image img
+{
+	/* max-width: 90%; */
+	/* max-height: 100%; */
+	width: auto;
+	height:  140px;
+}
+
+main.subfamilia .card-content
+{
+	border-top:1px solid #DDD;
+	padding: 15px 0!important;
+	height: 52px;
+	line-height:  1.2;
+}
+
+main.producto .slider
+{
+	border: 1px solid #DDD;
+	overflow: hidden;
+}
+
+.efecto
+	{
+    position:absolute;
+    opacity: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+ }    
+
+.efecto:hover
+	{
+    opacity: 1;
+    transition: 1s;
+	}
+
+.central
+	{
+    display: inline-block;
+    position: absolute;
+    background-color:#ffab00;
+  	color: #FFF;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform:translate(-50%,-50%);
+    line-height:0;
+    padding:10px;
+	}
+
+.collapsible
+{
+	border: none;
+}
+
+.collapsible-body
+{
+	padding: 0.5rem 1rem;
+	border-bottom: none;
+}
+
+.collapsible-header
+{
+	padding: 0.5rem 0;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+.slider .slides li img
+{
+	background-repeat: no-repeat!important;
+	background-size: contain!important;
+    background-color: white;
+}
